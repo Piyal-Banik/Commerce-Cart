@@ -1,0 +1,52 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    font-size: 18px;
+    margin-top: auto;
+
+    .divider {
+        background-color: #a0a0a0;
+        width: 15%;
+        height: 3px;
+        border: 1px solid  #a0a0a0;
+        position: relative;
+        right: 105px;
+    }
+
+    .section {
+        width: 25%;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pages {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    hr {
+        width: 100%;
+        background-color: #a0a0a0;
+        border: .5px solid  #a0a0a0;
+    }
+
+    .icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .info-container {
+        position: relative;
+        margin-top: 15px;
+    }
+
+    .info {
+        position: absolute;
+        margin-left: 10px;
+
+    }
+}

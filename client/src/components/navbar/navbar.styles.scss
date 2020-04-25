@@ -1,0 +1,37 @@
+.navbar {
+  height: 70px;
+  width: 100%;
+  padding: 0px 150px 0px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  font-size: 18px;
+  background-color: white;
+  z-index: 100;
+
+  .logo-container {
+    width: 30%;
+  }
+
+  .options {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .option {
+    padding: 0px 15px;
+  }
+
+  .account {
+    width: 45px;
+    height: 45px;
+  }
+
+  .selected {
+    color: green;
+  }
+}
