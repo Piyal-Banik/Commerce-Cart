@@ -11,7 +11,10 @@
     "dev": "concurrently -n 'Server,Client' -c 'red,green' \"npm start\" \"npm run client\""
   },
   "dependencies": {
+    "acron": ">=5.7.4",
+    "clean-css": "^4.2.3",
     "concurrently": "^5.2.0",
+    "constantinople": "^4.0.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
