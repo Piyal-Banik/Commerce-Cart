@@ -1,0 +1,25 @@
+.cart-dropdown {
+    position: absolute;
+    width: 240px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    visibility: hidden;
+    margin: 0 0 0 -90px;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    .empty-message {
+        font-size: 18px;
+        color: black;
+        margin: 50px auto;
+        align-self: center;
+    }
+
+    button {
+        margin-top: auto;
+        margin-left: 10px;
+    }
+}

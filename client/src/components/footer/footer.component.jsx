@@ -17,7 +17,7 @@ class Footer extends Component {
                     <h3>PAGES</h3>
                     <hr className='divider'/>
                     <div className='pages'>
-                        <NavLink className='option' to='/'>Home</NavLink>
+                        <NavLink className='option' to='/'>HOME</NavLink>
                         <hr />
                         <NavLink className='option' to='/shop'>SHOP</NavLink>
                         <hr />

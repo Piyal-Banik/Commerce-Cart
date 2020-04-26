@@ -11,6 +11,7 @@
     "dev": "concurrently -n 'Server,Client' -c 'red,green' \"npm start\" \"npm run client\""
   },
   "dependencies": {
+    "acorn": "^7.1.1",
     "clean-css": "^4.2.3",
     "concurrently": "^5.2.0",
     "constantinople": "^4.0.1",

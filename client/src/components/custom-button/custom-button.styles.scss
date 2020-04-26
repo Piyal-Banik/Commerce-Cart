@@ -1,0 +1,36 @@
+$color-primary: rgb(234, 234, 236);
+$color-secondary: rgb(255, 63, 108, 0.8);
+
+.custom-button {
+    min-width: 80px;
+    width: auto;
+    height: 40px;
+    letter-spacing: 0.5px;
+    margin: 10px 10px 0 0;
+    color: $color-secondary;
+    background-color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed';
+    font-weight: bolder;
+    border: 1px solid $color-primary;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+        background-color: white;
+        border: 1px solid $color-secondary;
+    }
+}
+
+.inverted {
+    background-color: $color-secondary;
+    color: white;
+    border: 1px solid $color-primary;
+
+    &:hover {
+        background-color: white;
+        color: $color-secondary;
+        border: 1px solid $color-secondary;
+    }
+}
