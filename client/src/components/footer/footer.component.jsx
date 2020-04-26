@@ -53,15 +53,15 @@ class Footer extends Component {
                     <h3>SEARCH BY CATEGORIES</h3>
                     <hr className='divider'/>
                     <div className='pages'>
-                        <NavLink className='option' to='/'>PHONES</NavLink>
+                        <NavLink className='option' to='/shop/phones'>PHONES</NavLink>
                         <hr />
-                        <NavLink className='option' to='/shop'>LAPTOPS</NavLink>
+                        <NavLink className='option' to='/shop/laptops'>LAPTOPS</NavLink>
                         <hr />
-                        <NavLink className='option' to='/about'>HEADPHONES</NavLink>
+                        <NavLink className='option' to='/shop/headphones'>HEADPHONES</NavLink>
                         <hr />
-                        <NavLink className='option' to='/contact'>MENS</NavLink>
+                        <NavLink className='option' to='/shop/mens'>MENS</NavLink>
                         <hr />
-                        <NavLink className='option' to='/account'>WOMENS</NavLink>
+                        <NavLink className='option' to='/shop/womens'>WOMENS</NavLink>
                     </div>
                 </div>
             </div>

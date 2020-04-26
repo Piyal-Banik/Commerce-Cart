@@ -18,9 +18,30 @@ class Navbar extends Component {
                     <NavLink className='option' activeClassName='selected' to='/shop'>SHOP</NavLink>
                     <NavLink className='option' activeClassName='selected' to='/about'>ABOUT</NavLink>
                     <NavLink className='option' activeClassName='selected' to='/contact'>CONTACT</NavLink>
-                    <NavLink className='option' activeClassName='selected' to='/account'>MY ACCOUNT</NavLink>
-                    
-                    <CartIcon />
+
+                    <div className='myAccount option'>
+                        <NavLink activeClassName='selected' to='/account'>MY ACCOUNT</NavLink>
+                        <div className='accountBlock'>
+                            <div className='accountBlockInfo'>
+                                <div className="accountBlockTitle"><strong>Welcome</strong></div>
+                                <span>In order to manage personal account</span>
+                                <div>
+                                    <button>Sign Up</button>
+                                    <button>Log In</button>
+                                </div>
+                                <hr />
+                            </div>
+                            
+                            <div className='accountOptions'>
+                                <NavLink className="accountOption" to='/profile'>PROFILE</NavLink>
+                                <NavLink className="accountOption" to='/orders'>ORDERS</NavLink>
+                                <NavLink className="accountOption" to='/cart'>CART</NavLink>
+                                <NavLink className="accountOption" to='/checkout'>CHECKOUT</NavLink>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <CartIcon />                    
                 </div>
             </div>
         );
