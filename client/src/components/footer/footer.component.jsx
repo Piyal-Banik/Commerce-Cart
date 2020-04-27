@@ -33,17 +33,17 @@ class Footer extends Component {
                     <h3>WHY SHOP WITH US?</h3>
                     <hr className='divider'/>
                     <div className='info-container'>
-                        <img className='icon' src='https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png'
+                        <img className='icon' src='/images/original-logo.png'
                         alt='icon'/>
                         <span className='info'><strong>100% ORIGINAL</strong> guarantee for all products</span>
                     </div>
                     <div className='info-container'>
-                        <img className='icon' src='https://constant.myntassets.com/web/assets/img/ef05d6ec-950a-4d01-bbfa-e8e5af80ffe31574602902427-30days.png'
+                        <img className='icon' src='/images/return-logo.png'
                         alt='icon'/>
                         <span className='info'><strong>Return within 30days</strong> of receiving your order</span>
                     </div>
                     <div className='info-container'>
-                        <img className='icon' src='https://constant.myntassets.com/web/assets/img/cafa8f3c-100e-47f1-8b1c-1d2424de71041574602902399-truck.png'
+                        <img className='icon' src='/images/shipping-logo.png'
                         alt='icon'/>
                         <span className='info'><strong>Get free delivery</strong> for every order above Rs. 1199</span>
                     </div>

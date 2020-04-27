@@ -1,0 +1,94 @@
+.homepage {
+    margin: 80px 0;
+
+    .jumbotron {
+        background-image: url('/images/homepage-jumbotron.jpg');
+        background-size: cover;
+        min-height: 600px;
+        position: relative;
+
+        .text-area {
+            color: white;
+            position: absolute;
+            width: 50%;
+            top: 150px;
+            left: 100px;
+            display: flex;
+            flex-direction: column;
+
+            .title {
+                font-size: 400%;
+                line-height: 100%;
+            }
+
+            .description {
+                font-size: 150%;
+                margin-top: -20px;
+            }
+
+            .details {
+                font-size: 250%;
+                margin-top: -20px;
+            }
+
+            .buttons {
+                display: flex;
+
+                button {
+                    width: 200px;
+                    font-size: 150%;
+                    border-radius: 6px;
+                }
+            }
+        }
+    }
+
+    .customer-service {
+        display: flex;
+        align-items: center;
+        margin-top: 45px;
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 33%;
+
+            img {
+                width: 20%;
+                align-self: center;
+            }
+
+            .title {
+                align-self: center;
+                margin-top: -5px;
+            }
+
+            .info {
+                align-self: center;
+                margin-top: -10px;
+            }
+        }
+
+        .original {
+            .title {
+                margin-top: 13px;
+            }
+            img {
+                position: relative;
+                top: 20px;
+            }
+        }
+
+        .delivery {
+            .title {
+                margin-top: 10px;
+            }
+            img {
+                position: relative;
+                top: 15px;
+            }
+        }
+    }
+}
+
