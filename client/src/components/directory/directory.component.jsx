@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import './directory.styles.scss';
-import DirectoryItem from '../directory-item/directory-item.component';
 
+import DirectoryItem from '../directory-item/directory-item.component';
+import SectionTitle from '../section-title/section-title.component';
 
 class Directory extends Component {
     constructor(props) {
@@ -11,19 +12,19 @@ class Directory extends Component {
             sections: [
                 {
                   title: 'phones',
-                  imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+                  imageUrl: '/images/phone.jpg',
                   id: 1,
                   linkUrl: 'shop/phones'
                 },
                 {
                   title: 'laptops',
-                  imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+                  imageUrl: '/images/laptop.jpg',
                   id: 2,
                   linkUrl: 'shop/laptops'
                 },
                 {
                   title: 'headphones',
-                  imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+                  imageUrl: '/images/headphones.jpg',
                   id: 3,
                   linkUrl: 'shop/headphones'
                 },
@@ -48,10 +49,8 @@ class Directory extends Component {
     render() {
         return(
             <div>
-                <div className='title-section'>
-                    <p className='title'>Categories</p>
-                    <div className='divider'></div>
-                </div>
+                <SectionTitle title='Categories' />
+
                 <div className='directory-menu'>
                     {this.state.sections.map(({id,...otherSectionProps}) => ( 
                         <DirectoryItem key={id} {...otherSectionProps} />

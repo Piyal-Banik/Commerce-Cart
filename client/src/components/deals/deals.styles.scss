@@ -1,0 +1,38 @@
+.deals-section {
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(0,0,0,0.6);
+
+    
+    .section {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        justify-content: center;
+        align-items: center;
+
+        .title {
+            font-size: 200%;
+        }
+
+        .description {
+            font-size: 150%;
+            position: relative;
+            bottom: 30px;
+        }
+
+        button {
+            width: 100px;
+            position: relative;
+            bottom: 45px;
+        }
+    }
+
+    .divider {
+        align-items: stretch;
+        height: 150px;
+        border: 0.5px solid rgba(0,0,0,0.5);
+    }
+}

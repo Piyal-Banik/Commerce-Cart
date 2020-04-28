@@ -7,7 +7,7 @@ const ShopOptions = () => {
     return(
         <div className='shop-options'>
             <div className='section'>
-                <NavLink className='title' to='/shop/phones'><h3>Phones</h3></NavLink>
+                <NavLink to='/shop/phones'><h3 className='title'>Phones</h3></NavLink>
                 
                 <div className='categories'>
                     <NavLink className='category' to='shop/phones/samsung'>Samsung</NavLink>

@@ -1,5 +1,5 @@
 .shop-options {
-    height: 280px;
+    height: 320px;
     width: 950px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     visibility: hidden;
@@ -9,29 +9,46 @@
     display: flex;
     font-size: 18px;
     background-color: white;
-    
+
     .section, .inverted-section{
         background-color: white;
         width: 250px;
         text-transform: uppercase;
         display: flex;
         flex-direction: column;
-        padding-left: 20px;
-    }
-
-    .title {
-        margin-bottom: -15px;
-        color: #7a9c59;
     }
 
     .inverted-section {
         background-color: rgba(245,245,246,.6);
     }
+
+
+    .title {
+        margin-bottom: -15px;
+        color: #7a9c59;
+        padding: 10px;
+
+        &:hover {
+            background-color: #7a9c59;
+            width: 80%;
+            color: white;
+        }
+    }
     
-    .category {
+    .categories {
         display: flex;
         flex-direction: column;
-        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    .category {
+        padding: 10px 10px 10px 20px;
+
+        &:hover {
+            background-color: #7a9c59;
+            width: 80%;
+            color: white;
+        }
     }
 
     hr {

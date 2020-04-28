@@ -8,6 +8,11 @@
     margin: 0 7.5px 15px;
     overflow: hidden;
 
+    .background-image {
+      background-size: contain;
+      background-position: top right;
+    }
+
     &:hover {
         cursor: pointer;
 

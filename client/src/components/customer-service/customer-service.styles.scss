@@ -1,0 +1,57 @@
+.customer-service {
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    color: rgba(0,0,0,0.6);
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 33%;
+
+        img {
+            width: 20%;
+            align-self: center;
+        }
+
+        .title {
+            align-self: center;
+            margin-top: -5px;
+        }
+
+        .info {
+            align-self: center;
+            text-align: center;
+            margin-top: -10px;
+            width: 70%;
+            font-size: 120%;
+        }
+    }
+
+    .original {
+        .title {
+            margin-top: 13px;
+        }
+        img {
+            position: relative;
+            top: 20px;
+        }
+    }
+
+    .delivery {
+        .title {
+            margin-top: 10px;
+        }
+        img {
+            position: relative;
+            top: 15px;
+        }
+    }
+
+    .divider {
+        align-items: stretch;
+        height: 150px;
+        border: 0.5px solid rgba(0,0,0,0.5);
+    }
+}

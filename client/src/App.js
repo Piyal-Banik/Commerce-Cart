@@ -6,6 +6,7 @@ import {Route, Switch} from 'react-router-dom';
 import Navbar from './components/navbar/navbar.component';
 import Footer from './components/footer/footer.component';
 import HomePage from './pages/homepage/homepage.component';
+import AboutPage from './pages/aboutpage/aboutpage.component';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       
       <Switch>
         <Route exact path='/' component={HomePage} />
+        <Route path='/about' component={AboutPage} />
       </Switch>
 
       <Footer />

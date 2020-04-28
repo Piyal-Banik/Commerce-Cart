@@ -1,0 +1,19 @@
+.title-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 50px 0;
+    color: rgba(0,0,0,0.6);
+
+    .title {
+        font-size: 300%;
+        text-transform: uppercase;
+    }
+
+    .divider {
+        width: 100px;
+        border: 2px solid #a0a0a0;
+        margin-top: -35px;
+    }
+}

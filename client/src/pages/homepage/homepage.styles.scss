@@ -47,48 +47,8 @@
         display: flex;
         align-items: center;
         margin-top: 45px;
-
-        .section {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            width: 33%;
-
-            img {
-                width: 20%;
-                align-self: center;
-            }
-
-            .title {
-                align-self: center;
-                margin-top: -5px;
-            }
-
-            .info {
-                align-self: center;
-                margin-top: -10px;
-            }
-        }
-
-        .original {
-            .title {
-                margin-top: 13px;
-            }
-            img {
-                position: relative;
-                top: 20px;
-            }
-        }
-
-        .delivery {
-            .title {
-                margin-top: 10px;
-            }
-            img {
-                position: relative;
-                top: 15px;
-            }
-        }
+        color: rgba(0,0,0,0.6);
     }
+
 }
 
