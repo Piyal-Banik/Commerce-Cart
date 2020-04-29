@@ -39,7 +39,27 @@ class ContactPage extends Component{
 
                 <div className='contact-form'>
                     <SectionTitle title='Ask a question' />
-                    
+                    <div className='support-form'>
+                        <form className='form-section'>
+                            <div className="form-group">
+                                <label className='label'>Your Name (required) :</label>
+                                <input type="text" className="form-input" />
+                            </div>
+                            <div className="form-group">
+                                <label className='label'>Your Email (required) :</label>
+                                <input type="email" className="form-input" />
+                            </div>
+                            <div className="form-group">
+                                <label className='label'>Subject :</label>
+                                <input type="email" className="form-input" />
+                            </div>
+                            <div className="form-group">
+                                <label className='label message'>Message :</label>
+                                <textarea className="message-box form-input" />
+                            </div>
+                            <CustomButton inverted>Send</CustomButton>
+                        </form>
+                    </div>
                 </div>
             </div>
         );

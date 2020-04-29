@@ -22,11 +22,9 @@
         background-color: rgba(245,245,246,.6);
     }
 
-
     .title {
-        margin-bottom: -15px;
+        padding: 10px 10px 10px 20px;
         color: #7a9c59;
-        padding: 10px;
 
         &:hover {
             background-color: #7a9c59;
@@ -38,7 +36,6 @@
     .categories {
         display: flex;
         flex-direction: column;
-        padding-top: 10px;
     }
 
     .category {
@@ -51,15 +48,4 @@
         }
     }
 
-    hr {
-        background-color: #a0a0a0;
-        width: 15%;
-        height: 3px;
-        border: 1px solid  #a0a0a0;
-        position: relative;
-        right: 70px;
-        margin-top: -5px;
-    }
-
-    
 }

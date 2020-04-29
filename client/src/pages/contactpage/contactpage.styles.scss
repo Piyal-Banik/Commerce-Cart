@@ -1,5 +1,5 @@
 .contact-page {
-    margin-top: 100px;
+    margin-top: 70px;
 
     .jumbotron {
         position: relative;
@@ -91,12 +91,65 @@
     }
 
     .contact-form{
-        height: 100vh; 
+        height: 130vh; 
         width: 86%;
         position: relative;
         left: 7%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-bottom: 60px;
+
+        .form-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;   
+
+            .form-group {
+                display: flex;
+                align-items: center;
+                margin: 10px;
+                width: 70%;
+
+                .label {
+                    font-size: 120%;
+                    font-weight: bold;
+                    margin-right: 20px;
+                    width: 20%;
+                    color: rgba(0,0,0,.6);
+                }
+                
+                .message {
+                    align-self: flex-start;
+                }
+                
+                .form-input {
+                    background: none;
+                    background-color: white;
+                    color: rgba(0,0,0,.6);
+                    font-size: 18px;
+                    width: 80%;
+                    padding: 10px;
+                    border: 1px solid rgba(0,0,0,.6);
+                    border-radius: 0;
+                    margin: 5px 0;
+                    
+                    &:hover {
+                        border: 1px solid black;
+                        box-shadow: none;
+                    }
+                }
+
+                .message-box {
+                    height: 250px;
+                }
+            }
+
+            button {
+                position: relative;
+                width: 20%;
+                right: 270px;
+            }
+        }
+
 
     }
 }

@@ -23,7 +23,7 @@ const ShopOptions = () => {
             </div>
 
             <div className='inverted-section'>
-                <NavLink className='title' to='/shop/laptops'><h3>Laptops</h3></NavLink>
+                <NavLink to='/shop/laptops'><h3 className='title'>Laptops</h3></NavLink>
                
                 <div className='categories'>
                     <NavLink className='category' to='shop/laptops/Macintosh'>Macintosh</NavLink>
@@ -39,7 +39,7 @@ const ShopOptions = () => {
             </div>
 
             <div className='section'>
-                <NavLink className='title' to='/shop/headphones'><h3>Headphones</h3></NavLink>
+                <NavLink to='/shop/headphones'><h3 className='title'>Headphones</h3></NavLink>
                 
                 <div className='categories'>
                     <NavLink className='category' to='/shop/headphones/bose'>Bose</NavLink>
@@ -55,7 +55,7 @@ const ShopOptions = () => {
             </div>
 
             <div className='inverted-section'>
-                <NavLink className='title' to='/shop/mens'><h3>Mens</h3></NavLink>
+                <NavLink to='/shop/mens'><h3 className='title'>Mens</h3></NavLink>
                 
                 <div className='categories'>
                     <NavLink className='category' to='/shop/mens/topwear'>Topwear</NavLink>
@@ -71,7 +71,7 @@ const ShopOptions = () => {
             </div>
 
             <div className='section'>
-                <NavLink className='title' to='/shop/womens'><h3>woMens</h3></NavLink>
+                <NavLink to='/shop/womens'><h3 className='title'>woMens</h3></NavLink>
                 
                 <div className='categories'>
                     <NavLink className='category' to='/shop/womens/indian'>Indian Wear</NavLink>
