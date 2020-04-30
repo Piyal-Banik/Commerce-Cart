@@ -1,5 +1,5 @@
 .homepage {
-    margin: 70px 0;
+    margin: 70px 0 20px;
 
     .jumbotron {
         background-image: url('/images/homepage-jumbotron.jpg');
@@ -46,8 +46,15 @@
     .customer-service {
         display: flex;
         align-items: center;
-        margin-top: 45px;
         color: rgba(0,0,0,0.6);
+    }
+
+    .featured-products {
+        margin-bottom: 60px;
+
+        .title{
+            margin: 0 0 60px 0;
+        }
     }
 
 }

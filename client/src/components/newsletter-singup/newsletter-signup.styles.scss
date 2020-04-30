@@ -3,24 +3,17 @@
     height: 400px;
     overflow: hidden;
     letter-spacing: 2px;
+    display: flex;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-    .background-image {
-        width: 100%;
-        position: relative;
-        bottom: 150px;
+    .image-section{
+        width: 50%;
+
+        .background-image {
+            width: 100%;
+            position: relative;
+        }
     }
-
-
-    &:after {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background-color: rgb(0,0,0);
-        opacity: .6; 
-      }
 
     .newsletter-form {
         display: flex;
@@ -28,23 +21,17 @@
         justify-content: center;
         align-items: center;
         background-size: cover;
-        margin-top: 60px;
-        color: white;
-        font-weight: bold;
-        position: absolute;
-        bottom: 0;
-        left: 100px;
+        color: black;
+        width: 50%;
         z-index: 1;
-
-        .title {
-            color: white;
-        }
+        position: relative;
+        bottom: 30px;
 
         .description {
-            width: 50%;
+            width: 80%;
             position: relative;
-            bottom: 40px;
             text-align: center;
+            color: rgba(0,0,0,.6);
         }
 
         .form {
@@ -52,23 +39,23 @@
             justify-content: space-between;
             align-items: center;
             position: relative;
-            bottom: 40px;
+            width: 80%;
 
             .form-input {
                 background: none;
                 background-color: white;
-                color: grey;
+                color: rgba(0,0,0,.6);
                 font-size: 18px;
-                width: 600px;
+                width: 83%;
                 padding: 10px;
-                border: none;
+                border: 1px solid grey;
                 border-radius: 0;
-                margin: 25px 0;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                margin: 5px 0;
+                outline: none;
             }
 
             button {
-                width: 100px;
+                width: 15%;
                 position: relative;
                 left: 15px;
                 bottom: 5px;

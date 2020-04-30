@@ -9,6 +9,7 @@ import NewsLetter from '../../components/newsletter-singup/newsletter-signup.com
 class AboutPage extends Component {
     render() {
         return(
+            
             <div className='about-page'>
                 <div className='jumbotron'>
                     <img src='/images/aboutus.jpg'  alt='aboutus' className='background-image'/>

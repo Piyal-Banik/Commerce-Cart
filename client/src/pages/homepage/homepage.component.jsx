@@ -5,9 +5,9 @@ import './homepage.styles.scss';
 import CustomButton from '../../components/custom-button/custom-button.component';
 import Directory from '../../components/directory/directory.component';
 import CustomerService from '../../components/customer-service/customer-service.component';
-import SectionTitle from '../../components/section-title/section-title.component';
 import DealsSection from '../../components/deals/deals.component';
 import Newsletter from '../../components/newsletter-singup/newsletter-signup.component';
+import Featured from '../../components/featured/featured.component';
 
 class HomePage extends Component {
     render() {
@@ -44,9 +44,7 @@ class HomePage extends Component {
 
                 <DealsSection />
 
-                <div className='featured-products'>
-                    <SectionTitle title='featured products' />
-                </div>
+                <Featured />
 
                 <Newsletter />
 
