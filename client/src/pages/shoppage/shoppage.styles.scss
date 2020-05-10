@@ -1,0 +1,65 @@
+.shop{
+    margin: 70px 0 0 80px;
+    display: flex;
+
+    .sidebar {
+        width: 25%;
+        margin-top: 25px;
+        
+        .title-section {
+            align-items: flex-start;
+
+            .title{
+                font-size: 180%;
+                width: 60%;
+            }
+    
+            .divider {
+                width: 30px;
+                margin: -25px 0 15px;
+            }
+        }
+
+        .search-form {
+            display: flex;
+            justify-content: space-around;
+            margin-left: 0;
+            width: 100%;
+
+            .section {
+                margin: 0;
+            }
+
+            .form-input {
+                width: 100%;
+                height: 40px;
+            }
+
+            .custom-button {
+                width: 20%;
+                margin-top: 5px;
+            }
+        }
+
+        .filter-price {
+              
+        }
+
+        .category-section {
+            .category {
+                width: 95%;
+                height: 40px;
+                background: none;
+                font-size: 110%;
+                color: rgba(0,0,0,.6);
+                padding-left: 10px;
+            }
+        }
+    }
+
+    .products-section {
+        width: 75%;
+        margin-left: 20px;
+    }
+
+}

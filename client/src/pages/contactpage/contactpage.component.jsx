@@ -5,6 +5,7 @@ import './contactpage.styles.scss';
 
 import SectionTitle from '../../components/section-title/section-title.component';
 import CustomButton from '../../components/custom-button/custom-button.component';
+import FormInput from '../../components/form-input/form-input.components';
 
 class ContactPage extends Component{
     render() {
@@ -41,18 +42,9 @@ class ContactPage extends Component{
                     <SectionTitle title='Ask a question' />
                     <div className='support-form'>
                         <form className='form-section'>
-                            <div className="form-group">
-                                <label className='label'>Your Name (required) :</label>
-                                <input type="text" className="form-input" />
-                            </div>
-                            <div className="form-group">
-                                <label className='label'>Your Email (required) :</label>
-                                <input type="email" className="form-input" />
-                            </div>
-                            <div className="form-group">
-                                <label className='label'>Subject :</label>
-                                <input type="email" className="form-input" />
-                            </div>
+                            <FormInput label='Your Name (required) :' />
+                            <FormInput label='Your Email (required) :' />
+                            <FormInput label='Subject :' />
                             <div className="form-group">
                                 <label className='label message'>Message :</label>
                                 <textarea className="message-box form-input" />

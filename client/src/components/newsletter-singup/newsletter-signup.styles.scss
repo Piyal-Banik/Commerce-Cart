@@ -36,28 +36,14 @@
 
         .form {
             display: flex;
-            justify-content: space-between;
             align-items: center;
+            justify-content: center;
             position: relative;
             width: 80%;
-
-            .form-input {
-                background: none;
-                background-color: white;
-                color: rgba(0,0,0,.6);
-                font-size: 18px;
-                width: 83%;
-                padding: 10px;
-                border: 1px solid grey;
-                border-radius: 0;
-                margin: 5px 0;
-                outline: none;
-            }
 
             button {
                 width: 15%;
                 position: relative;
-                left: 15px;
                 bottom: 5px;
             }
         }

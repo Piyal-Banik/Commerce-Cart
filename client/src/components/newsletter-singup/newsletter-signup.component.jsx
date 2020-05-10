@@ -4,6 +4,7 @@ import './newsletter-signup.styles.scss';
 
 import SectionTitle from '../section-title/section-title.component';
 import CustomButton from '../custom-button/custom-button.component';
+import FormInput from '../form-input/form-input.components';
 
 const Newsletter = () => {
     return(
@@ -18,8 +19,8 @@ const Newsletter = () => {
                 consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
                 laoreet dolore magna aliquam erat.</p>
                 <div className='form'>
-                    <input type="email" id="email" name="email" required className='form-input'
-                    placeholder='Your Email (required)'/>
+                    <FormInput className='form-input' placeholder='Your Email (required)' />
+
                     <CustomButton inverted>Sign Up</CustomButton>
                 </div>
             </div>

@@ -8,6 +8,7 @@ import Footer from './components/footer/footer.component';
 import HomePage from './pages/homepage/homepage.component';
 import AboutPage from './pages/aboutpage/aboutpage.component';
 import ContactPage from './pages/contactpage/contactpage.component';
+import ShopPage from './pages/shoppage/shoppage-component';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path='/' component={HomePage} />
         <Route path='/about' component={AboutPage} />
         <Route path='/contact' component={ContactPage} />
+        <Route path='/shop' component={ShopPage} />
       </Switch>
 
       <Footer />
