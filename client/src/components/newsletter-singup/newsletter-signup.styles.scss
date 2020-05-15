@@ -40,11 +40,15 @@
             justify-content: center;
             position: relative;
             width: 80%;
+            
+            .form-input {
+                width: 100%;
+            }
 
             button {
                 width: 15%;
                 position: relative;
-                bottom: 5px;
+                right: 10px;
             }
         }
     }

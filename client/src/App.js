@@ -9,6 +9,7 @@ import HomePage from './pages/homepage/homepage.component';
 import AboutPage from './pages/aboutpage/aboutpage.component';
 import ContactPage from './pages/contactpage/contactpage.component';
 import ShopPage from './pages/shoppage/shoppage-component';
+import CheckoutPage from './pages/checkout/checkout.component';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/about' component={AboutPage} />
         <Route path='/contact' component={ContactPage} />
         <Route path='/shop' component={ShopPage} />
+        <Route path='/checkout' component={CheckoutPage} />
       </Switch>
 
       <Footer />

@@ -3,7 +3,7 @@ import React from 'react';
 import './form-input.styles.scss';
 
 const FormInput = ({label, placeholder}) => (
-    <div className='section'>
+    <div className='form-input-section'>
         {
             label ? <label className='label'>{label}</label>: null
 

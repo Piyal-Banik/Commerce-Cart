@@ -66,8 +66,7 @@ const items = [
         price: 160,
         discount: 30,
         category: 'Shoe'
-    }
-    
+    }    
   ];
 
 const ProductPreview = ({limit}) => (

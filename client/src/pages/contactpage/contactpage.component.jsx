@@ -5,6 +5,7 @@ import './contactpage.styles.scss';
 
 import SectionTitle from '../../components/section-title/section-title.component';
 import CustomButton from '../../components/custom-button/custom-button.component';
+import NewsLetter from '../../components/newsletter-singup/newsletter-signup.component';
 import FormInput from '../../components/form-input/form-input.components';
 
 class ContactPage extends Component{
@@ -46,13 +47,16 @@ class ContactPage extends Component{
                             <FormInput label='Your Email (required) :' />
                             <FormInput label='Subject :' />
                             <div className="form-group">
-                                <label className='label message'>Message :</label>
+                                <label className='label message'>Message (required) :</label>
                                 <textarea className="message-box form-input" />
                             </div>
                             <CustomButton inverted>Send</CustomButton>
                         </form>
                     </div>
                 </div>
+
+                <NewsLetter className='newsletter'/>
+                
             </div>
         );
     }

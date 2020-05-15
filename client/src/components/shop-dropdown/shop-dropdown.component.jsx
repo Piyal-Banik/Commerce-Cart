@@ -6,7 +6,7 @@ import './shop-dropdown.styles.scss';
 const ShopOptions = () => {
     return(
         <div className='shop-options'>
-            <div className='section'>
+            <div className='shop-section'>
                 <NavLink to='/shop/phones'><h3 className='title'>Phones</h3></NavLink>
                 
                 <div className='categories'>
@@ -22,7 +22,7 @@ const ShopOptions = () => {
                 </div>
             </div>
 
-            <div className='inverted-section'>
+            <div className='shop-inverted-section'>
                 <NavLink to='/shop/laptops'><h3 className='title'>Laptops</h3></NavLink>
                
                 <div className='categories'>
@@ -38,7 +38,7 @@ const ShopOptions = () => {
                 </div>
             </div>
 
-            <div className='section'>
+            <div className='shop-section'>
                 <NavLink to='/shop/headphones'><h3 className='title'>Headphones</h3></NavLink>
                 
                 <div className='categories'>
@@ -54,7 +54,7 @@ const ShopOptions = () => {
                 </div>
             </div>
 
-            <div className='inverted-section'>
+            <div className='shop-inverted-section'>
                 <NavLink to='/shop/mens'><h3 className='title'>Mens</h3></NavLink>
                 
                 <div className='categories'>
@@ -70,8 +70,8 @@ const ShopOptions = () => {
                 </div>
             </div>
 
-            <div className='section'>
-                <NavLink to='/shop/womens'><h3 className='title'>woMens</h3></NavLink>
+            <div className='shop-section'>
+                <NavLink to='/shop/womens'><h3 className='title'>Womens</h3></NavLink>
                 
                 <div className='categories'>
                     <NavLink className='category' to='/shop/womens/indian'>Indian Wear</NavLink>

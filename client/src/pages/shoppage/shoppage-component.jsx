@@ -35,11 +35,23 @@ class ShopPage extends Component {
 
                     <div className='filter-price'>
                         <SectionTitle className='title' title='Filter by price' /> 
-                
+                        <div className='filter-section'>
+                            <FormInput placeholder='Min' />
+                            <FormInput placeholder='Max' />
+                            <CustomButton inverted>Filter</CustomButton>
+                        </div>
                     </div>
 
                     <div className='category-section'>
                         <SectionTitle className='title' title='Categories' />
+                        <select className='category-selector' >
+                            <option value="category">Select A Category</option>
+                            <option value="phones">Phones</option>
+                            <option value="laptops">Laptops</option>
+                            <option value="headphones">Headphones</option>
+                            <option value="mens">Mens</option>
+                            <option value="womens">Womens</option>
+                        </select>
                     </div>
                     
                     <SectionTitle className='title' title='Recently viewed products' />

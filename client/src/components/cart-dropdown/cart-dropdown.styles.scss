@@ -18,6 +18,13 @@
         align-self: center;
     }
 
+    .cart-items {
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+
     button {
         margin-top: auto;
         margin-left: 10px;

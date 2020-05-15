@@ -1,9 +1,11 @@
 import React from 'react';
 import './product.styles.scss';
 
+import {connect} from 'react-redux';
+import {addItem} from '../../redux/cart/cart.actions';
 import CustomButton from '../custom-button/custom-button.component';
 
-const Product = ({item}) => {
+const Product = ({item, addItem}) => {
     const {category, name, price, discount, imageUrl, ...others} = item;
     const discountPrice = parseInt(price * (100-discount)/100);
 
@@ -25,9 +27,13 @@ const Product = ({item}) => {
                     </div> : <span className='price'>${price}</span>
                 }
             </div>
-            <CustomButton inverted>Add to cart</CustomButton>
+            <CustomButton onClick={() => addItem(item)} inverted>Add to cart</CustomButton>
         </div>
     );
 };
 
-export default Product;
+const mapDispatchToProps = dispatch => ({
+    addItem: item => dispatch(addItem(item))
+})
+
+export default connect(null, mapDispatchToProps)(Product);

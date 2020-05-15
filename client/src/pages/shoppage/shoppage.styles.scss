@@ -5,6 +5,10 @@
     .sidebar {
         width: 25%;
         margin-top: 25px;
+
+        .form-input-section {
+            margin-left: 0px;
+        }
         
         .title-section {
             align-items: flex-start;
@@ -23,6 +27,7 @@
         .search-form {
             display: flex;
             justify-content: space-around;
+            align-items: center;
             margin-left: 0;
             width: 100%;
 
@@ -37,12 +42,22 @@
 
             .custom-button {
                 width: 20%;
-                margin-top: 5px;
             }
         }
 
         .filter-price {
-              
+
+            .filter-section {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+            }
+
+            .form-input {
+                width: 100%;
+                margin: 0px;
+            }
         }
 
         .category-section {
@@ -53,6 +68,20 @@
                 font-size: 110%;
                 color: rgba(0,0,0,.6);
                 padding-left: 10px;
+            }
+
+            .category-selector {
+                background: none;
+                background-color: white;
+                color: rgba(0,0,0,.6);
+                font-size: 18px;
+                width: 97%;
+                height: 45px;
+                padding: 10px;
+                border: 1px solid rgba(0,0,0,.6);
+                border-radius: 0;
+                margin: 5px 0;
+                outline: none;
             }
         }
     }

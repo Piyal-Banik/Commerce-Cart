@@ -10,7 +10,7 @@
     font-size: 18px;
     background-color: white;
 
-    .section, .inverted-section{
+    .shop-section, .shop-inverted-section{
         background-color: white;
         width: 250px;
         text-transform: uppercase;
@@ -18,7 +18,7 @@
         flex-direction: column;
     }
 
-    .inverted-section {
+    .shop-inverted-section {
         background-color: rgba(245,245,246,.6);
     }
 
