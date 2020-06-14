@@ -1,7 +1,7 @@
 .navbar {
   height: 70px;
   width: 100%;
-  padding: 0px 150px 0px 150px;
+  padding: 0px 120px 0px 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,15 +16,14 @@
   }
 
   .options {
-    width: 50%;
+    width: 68%;
     height: 70px;
     display: flex;
-    align-items: stretch;
     justify-content: flex-end;
-  }
 
-  .option {
-    padding: 26px 15px;
+    .option {
+      padding: 26px 15px;
+    }
   }
 
   .myAccount:hover .accountBlock {
@@ -33,6 +32,10 @@
 
   .shopBlock:hover .shop-options {
     visibility: visible;
+  }
+
+  .cart {
+    margin-left: 15px;
   }
 
   .cart:hover .cart-dropdown {

@@ -19,9 +19,8 @@ const MyAccountNavOptions = () => {
             </div>
             
             <div className='accountOptions'>
-                <NavLink className="accountOption" to='/profile'>PROFILE</NavLink>
-                <NavLink className="accountOption" to='/orders'>ORDERS</NavLink>
-                <NavLink className="accountOption" to='/cart'>CART</NavLink>
+                <NavLink className="accountOption" to='/my-account/profile'>PROFILE</NavLink>
+                <NavLink className="accountOption" to='/my-account/orders'>ORDERS</NavLink>
                 <NavLink className="accountOption" to='/checkout'>CHECKOUT</NavLink>
             </div>
         </div>

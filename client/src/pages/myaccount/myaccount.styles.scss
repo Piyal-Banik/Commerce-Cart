@@ -1,0 +1,38 @@
+.myAccountPage {
+    margin-top: 70px;
+
+    .dashboard {
+        margin: 30px 50px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+
+        .dashboard-options {
+            width: 20%;
+            background-color: red($color: #000000);
+            text-transform: uppercase;
+        }
+
+        .dashboard-display {
+            width: 60%;
+            background-color: green($color: #000000);
+            display: flex;
+            flex-direction: column;
+
+            .dashboard-display-section {
+                margin: 0 30px 20px 0;
+                display: flex;
+                justify-content: flex-start;
+                
+                button {
+                    width: 150px;
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+
+    .selected {
+        color: green;
+    }
+}

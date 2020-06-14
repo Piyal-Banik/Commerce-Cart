@@ -10,6 +10,8 @@ import AboutPage from './pages/aboutpage/aboutpage.component';
 import ContactPage from './pages/contactpage/contactpage.component';
 import ShopPage from './pages/shoppage/shoppage-component';
 import CheckoutPage from './pages/checkout/checkout.component';
+import MyAccountPage from './pages/myaccount/myaccount.component';
+import SignInSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path='/about' component={AboutPage} />
         <Route path='/contact' component={ContactPage} />
         <Route path='/shop' component={ShopPage} />
+        <Route path='/my-account' component={MyAccountPage} />
+        <Route path='/login-signup' component={SignInSignUpPage} />
         <Route path='/checkout' component={CheckoutPage} />
       </Switch>
 

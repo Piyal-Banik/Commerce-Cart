@@ -28,7 +28,7 @@ class Navbar extends Component {
                     <NavLink className='option' activeClassName='selected' to='/contact'>CONTACT</NavLink>
 
                     <div className='myAccount option'>
-                        <NavLink activeClassName='selected' to='/profile'>MY ACCOUNT</NavLink>
+                        <NavLink className='option' activeClassName='selected' to='/my-account'>MY ACCOUNT</NavLink>
                         <MyAccountNavOption className='accountBlock'/>
                     </div>
     

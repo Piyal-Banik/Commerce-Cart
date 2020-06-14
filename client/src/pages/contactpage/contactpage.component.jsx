@@ -9,6 +9,28 @@ import NewsLetter from '../../components/newsletter-singup/newsletter-signup.com
 import FormInput from '../../components/form-input/form-input.components';
 
 class ContactPage extends Component{
+
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            description: '•'
+        }
+    }
+
+    enterPress = (event) => {
+        if(event.key === 'Enter') {
+            console.log(this.state.description);
+            this.setState({description: this.state.description + "\n"});
+            this.setState({description: this.state.description + "•"});
+        }
+    }
+
+    handleChange = (event) => {
+        this.setState({description: event.target.value})
+    }
+
+
     render() {
         return(
             <div className='contact-page'>
@@ -48,7 +70,7 @@ class ContactPage extends Component{
                             <FormInput label='Subject :' />
                             <div className="form-group">
                                 <label className='label message'>Message (required) :</label>
-                                <textarea className="message-box form-input" />
+                                <textarea value={this.state.description} className="message-box form-input" onChange={this.handleChange} onKeyPress={this.enterPress}/>
                             </div>
                             <CustomButton inverted>Send</CustomButton>
                         </form>
